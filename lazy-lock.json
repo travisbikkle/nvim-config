@@ -1,5 +1,4 @@
 {
-  "CopilotChat.nvim": { "branch": "main", "commit": "f8d47ce9adace3c1fe9fa7737bc1fde861bb8317" },
   "LeaderF": { "branch": "master", "commit": "ce7246f7a76c3804d5b5b5e704e4acf9d67042f2" },
   "arctic": { "branch": "v2", "commit": "9052ab87b1d6e9b746ab8dde6576e2876ffda4c7" },
   "asyncrun.vim": { "branch": "master", "commit": "78dc9277f2b989553861ee7c35b640112d95e1b5" },
@@ -11,7 +10,6 @@
   "cmp-nvim-ultisnips": { "branch": "main", "commit": "2be0eda0f7fbf47ebd9fbdace369cc45d57acf49" },
   "cmp-omni": { "branch": "main", "commit": "4ef610bbd85a5ee4e97e09450c0daecbdc60de86" },
   "cmp-path": { "branch": "main", "commit": "91ff86cd9c29299a64f968ebb45846c485725f23" },
-  "copilot.lua": { "branch": "master", "commit": "30321e33b03cb924fdcd6a806a0dc6fa0b0eafb9" },
   "dashboard-nvim": { "branch": "master", "commit": "000448d837f6e7a47f8f342f29526c4d7e49e9ce" },
   "diffview.nvim": { "branch": "main", "commit": "4516612fe98ff56ae0415a259ff6361a89419b0a" },
   "dropbar.nvim": { "branch": "master", "commit": "807ddc72457907a4d7e385cec0aa25648ee60a58" },
@@ -64,6 +62,7 @@
   "targets.vim": { "branch": "master", "commit": "6325416da8f89992b005db3e4517aaef0242602e" },
   "telescope-symbols.nvim": { "branch": "master", "commit": "a6d0127a53d39b9fc2af75bd169d288166118aec" },
   "telescope.nvim": { "branch": "master", "commit": "814f102cd1da3dc78c7d2f20f2ef3ed3cdf0e6e4" },
+  "toggleterm.nvim": { "branch": "main", "commit": "e76134e682c1a866e3dfcdaeb691eb7b01068668" },
   "ultisnips": { "branch": "master", "commit": "35252b3327bf0cb55136399dfe615637093a8291" },
   "unicode.vim": { "branch": "master", "commit": "a78a0c7d27f87c2cd9c1d8609330edfaf69f2d4d" },
   "vim-commentary": { "branch": "master", "commit": "64a654ef4a20db1727938338310209b6a63f60c9" },

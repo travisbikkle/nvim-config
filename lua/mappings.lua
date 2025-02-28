@@ -246,3 +246,7 @@ keymap.set("n", "<leader>cb", function()
     end)
   )
 end, { desc = "show cursor" })
+
+-- 选择文本后打开终端执行, 注意关闭终端后会报错
+keymap.set('v', '<leader>es', '<Cmd>ToggleTermSendVisualSelection<CR>', { noremap = true })
+

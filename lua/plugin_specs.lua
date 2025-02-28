@@ -609,6 +609,13 @@ local plugin_specs = {
     opts = { -- set to setup table
     },
   },
+  {
+    "akinsho/toggleterm.nvim",
+    config = function()
+      require("config.toggleterm")
+    end,
+    event = "VeryLazy",
+  }
 }
 
 require("lazy").setup {
