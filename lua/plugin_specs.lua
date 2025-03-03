@@ -625,6 +625,9 @@ require("lazy").setup {
     title = "Plugin Manager",
     title_pos = "center",
   },
+  git = {
+    timeout = 600, --https://lazy.folke.io/configuration,https://github.com/folke/lazy.nvim/blob/main/lua/lazy/core/config.lua 
+  },
   rocks = {
     enabled = false,
     hererocks = false,
