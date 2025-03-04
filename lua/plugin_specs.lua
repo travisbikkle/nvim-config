@@ -615,6 +615,14 @@ local plugin_specs = {
       require("config.toggleterm")
     end,
     event = "VeryLazy",
+  },
+  {
+    "Pocco81/auto-save.nvim",
+    config = function()
+      require("auto-save").setup {
+          enabled = true,
+      }
+    end,
   }
 }
 
@@ -626,7 +634,7 @@ require("lazy").setup {
     title_pos = "center",
   },
   git = {
-    timeout = 600, --https://lazy.folke.io/configuration,https://github.com/folke/lazy.nvim/blob/main/lua/lazy/core/config.lua 
+    timeout = 600, --https://lazy.folke.io/configuration,https://github.com/folke/lazy.nvim/blob/main/lua/lazy/core/config.lua
   },
   rocks = {
     enabled = false,
