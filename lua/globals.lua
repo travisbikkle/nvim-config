@@ -68,3 +68,6 @@ vim.g.loaded_matchparen = 1
 
 -- Disable sql omni completion, it is broken.
 vim.g.loaded_sql_completion = 1
+
+-- Clipboard, 这个不打开系统剪切板也可以使用
+-- vim.opt.clipboard="unnamedplus"
