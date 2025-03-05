@@ -249,4 +249,10 @@ end, { desc = "show cursor" })
 
 -- 选择文本后打开终端执行, 注意关闭终端后会报错
 keymap.set('v', '<leader>es', '<Cmd>ToggleTermSendVisualSelection<CR>', { noremap = true })
-
+-- vim-swap 更改默认按键
+keymap.set({ "n", "x" }, "gs,", "<Plug>(swap-prev)", { noremap = true })
+keymap.set({ "n", "x" }, "gs.", "<Plug>(swap-next)", { noremap = true })
+keymap.set({ "n", "x" }, "gs3", "<Plug>(swap-interactive)", { noremap = true })
+-- leap 不调用默认按键，手动映射
+keymap.set({'n','x','o'}, 'gss', '<Plug>(leap-forward)')
+keymap.set({'n','x','o'}, 'gsS', '<Plug>(leap-backward)')

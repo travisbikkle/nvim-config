@@ -70,8 +70,13 @@ local plugin_specs = {
       require("config.treesitter-textobjects")
     end,
   },
-  { "machakann/vim-swap", event = "VeryLazy" },
-
+  {
+    "machakann/vim-swap",
+    event = "VeryLazy",
+    init = function()
+      vim.g.swap_no_default_key_mappings = 1
+    end
+  },
   -- IDE for Lisp
   -- 'kovisoft/slimv'
   {
@@ -623,7 +628,8 @@ local plugin_specs = {
           enabled = true,
       }
     end,
-  }
+  },
+  { "ggandor/leap.nvim", },
 }
 
 require("lazy").setup {
