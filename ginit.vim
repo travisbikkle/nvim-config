@@ -13,7 +13,7 @@ if exists('g:GuiLoaded')
   GuiTabline 0
   GuiPopupmenu 0
   GuiLinespace 2
-  GuiFont! Hack\ NF:h10:l
+  GuiFont! JetBrainsMono\ NF:h16:l
 endif
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -64,7 +64,7 @@ endif
 "                             config for neovide                             "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 if exists("g:neovide")
-  set guifont=Hack\ NF:h10
+  set guifont=JetBrainsMono\ NF:h14
   let g:neovide_transparency = 1.0
   let g:neovide_cursor_animation_length = 0.1
   let g:neovide_cursor_trail_size=0.3
