@@ -50,12 +50,7 @@ local plugin_specs = {
 
   {
     "nvim-treesitter/nvim-treesitter",
-    enabled = function()
-      if vim.g.is_mac or vim.g.is_linux then
-        return true
-      end
-      return false
-    end,
+    enabled = true,
     event = "VeryLazy",
     build = ":TSUpdate",
     config = function()
